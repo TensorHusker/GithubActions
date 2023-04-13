@@ -81,6 +81,7 @@ namespace GithubActionsLab
             return double.Parse(x) / double.Parse(y);
         }
 
+        // Implement this method following a similar pattern as above
         public static double Power(double num1, double num2)
 		{
 			return Math.Pow(num1, num2);
