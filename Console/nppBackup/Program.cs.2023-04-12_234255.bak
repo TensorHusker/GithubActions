@@ -92,39 +92,10 @@ namespace GithubActionsLab
 
 			return 0;
 		}
-		public static int Addition(string a, string b)
-		{
-			int x = int.Parse(a);
-			int y = int.Parse(b);
-			return x + y;
-		}
 
-		public static int Subtraction(string a, string b)
-		{
-			int x = int.Parse(a);
-			int y = int.Parse(b);
-			return x - y;
-		}
 
-		public static int Multiplication(string a, string b)
-		{
-			int x = int.Parse(a);
-			int y = int.Parse(b);
-			return x * y;
-		}
-
-		public static int Division(string a, string b)
-		{
-			int x = int.Parse(a);
-			int y = int.Parse(b);
-			return x / y;
-		}
-
-		public static int Modulo(string a, string b)
-		{
-			int x = int.Parse(a);
-			int y = int.Parse(b);
-			return x % y;
-		}
     }
+
+
+
 }
