@@ -45,12 +45,12 @@ namespace GithubActionsLab
 			Assert.AreEqual(6, Program.Multiplication("2", "3"));
 		}
 
+		// Division test
 		[Test]
 		public void TestDivision_Scott()
 		{
-			Assert.AreEqual(3, Program.Division("6", "3")); // Incorrect expected result to make the test fail
+			Assert.AreEqual(2, Program.Division("6", "3"));
 		}
-
 
 		// Modulo test
 		[Test]
